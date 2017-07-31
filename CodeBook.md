@@ -34,6 +34,9 @@ The 'run_analysis.R' script does the following steps
 9. Tidies the data by changing the table from a 'short-wide' format into a 'long-narrow' format by collapsing all the different observations into the 'observationtype' column and the values into the 'value' column
 10. Groups the data by the activity and subject columns, and then obtains the means of these columns, which is then saved in the 'results.txt' file
 
+## Data Source
+The data was obtained from <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>. For additional information on the raw data, please refer to the README.txt file in this zip file.
+
 ## Additional Notes
 [1] The descriptions under observationtype are somewhat difficult to decipher, here's a guide:
 * t / f in the first letter indicates a time / frequency measurement
