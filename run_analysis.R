@@ -76,4 +76,4 @@ results <- combined %>%
     summarise(average = mean(value))
 
 # writes out results into a file
-write.table(results, "results.txt")
+write.table(results, "results.txt", row.names = FALSE)
